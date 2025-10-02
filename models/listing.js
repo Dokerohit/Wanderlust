@@ -8,17 +8,17 @@ const listingSchema = new Schema({
 
     },
     description: String,
-    image: {
-        filename: String,
-        url: {
-          type: String,
-          default: "https://unsplash.com/photos/an-aerial-view-of-a-house-with-a-swimming-pool-66NY2XFdQb4",
-          set: (v) =>
-            v === ""
-              ? "https://unsplash.com/photos/an-aerial-view-of-a-house-with-a-swimming-pool-66NY2XFdQb4"
-              : v,
-        }
+    image:{
+      url:{
+          type:String,
       },
+      filename:{
+          type:String
+      },
+  
+    
+  },
+
       
     price: Number,
     location : String,

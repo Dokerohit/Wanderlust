@@ -1,3 +1,111 @@
-body{
-    background-color: pink;
-}
+.body{
+    font-family:"plus jakatra sans",sans-serif !important; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ }
+ 
+ .container{
+     flex:1;
+ }
+ 
+ .navbar {
+     height: 5rem !important;      /* fixes height */
+     min-height: 5rem !important;  /* prevents shrinking */
+     padding-top: 0 !important;    /* remove top padding */
+     padding-bottom: 0 !important; /* remove bottom padding */
+     background-color: white;
+ }
+ .fa-compass{
+     color: #fe424d;
+     font-size: 2rem;
+ }
+ .nav-link{
+     color: #222222  !important;
+ }
+ .f-info-links a {
+     text-decoration: none;
+     color: #222222;
+ }
+ .f-info-links a:hover {
+     text-decoration:underline;
+ }
+ .f-info-links,.f-info-socials,.f-info-brand{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .f-info-socials i {
+     font-size: 1.2rem;
+     margin-right: 1rem;
+ }
+ .f-info{
+     text-align: center;
+     height: 8rem;
+     background-color: #ebebeb;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: space-evenly;
+ }
+ 
+ .card{
+     border: none !important;
+     margin-bottom: 2rem;
+     box-shadow: none !important;   /* ✅ removes card shadow */
+ }
+ 
+ .card-img-top{
+     border-radius: 1rem !important;
+     width:100% !important;
+     object-fit:cover !important;
+ }
+ .card-body{
+     padding:0px;
+ }
+ 
+ .listing-link{
+     text-decoration: none;
+ }
+ 
+ .card-img-overlay{
+     opacity:0;
+ }
+ .card-img-overlay:hover{
+     opacity:0.2;
+     background-color: white;
+ }
+ 
+ .add-btn{
+     background-color: #fe424d !important;
+     border:none !important;
+ }
+ 
+ .edit-btn{
+     background-color: #fe424d !important;
+     border:none !important;
+     color: white !important;
+ }
+ 
+ .delete-btn{
+     background-color: #222222 !important;
+     border:none !important;
+     color: white !important;
+ }
+ 
+ .show-img{
+     height:30vh;
+ }
+ 
+ .show-card{
+     padding-left: 0;
+     padding-right: 0;
+ }
+ 
+ .listing-card{
+     border:none !important;
+     margin-bottom: 2rem;
+ }
+ 

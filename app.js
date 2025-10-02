@@ -12,7 +12,7 @@ main()
     console.log("mongo db connected");
 })
 .catch((err)=>{
-    comsole.log("error");
+    console.log("error");
 });
 
 async function main() {
